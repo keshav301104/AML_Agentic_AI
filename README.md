@@ -26,24 +26,23 @@ This project is a complete, human-in-the-loop (HITL) web application for Anti-Mo
 
 ### 1. New Alerts Dashboard
 *The home screen shows all pending alerts and key statistics.*
-![New Alerts Dashboard](docs/images/new_alerts.png)
+![New Alerts Dashboard](screenshots/new_alerts.png)
 
 ### 2. Pre-Investigation
 *The analyst selects a case and reviews the initial KYC data.*
-![Pre-Investigation View](docs/images/pre_investigation.png)
+![Pre-Investigation View](screenshots/pre_investigation.png)
 
 ### 3. Full Investigation Report
 *The AI-generated brief (left) is aligned with the raw data (right) for easy review.*
-![Main Investigation Report](docs/images/post_investigation.png)
+![Main Investigation Report](screenshots/post_investigation.png)
 
 ### 4. Analyst Follow-up Chat
 *The analyst can ask follow-up questions to the "lite" agent.*
-![Follow-up Chat](docs/images/chat_follow_up.png)
+![Follow-up Chat](screenshots/chat_follow_up.png)
 
 ### 5. Closed Cases Archive
 *All completed cases are archived for review and auditing.*
-![Closed Cases](docs/images/closed_cases.png)
-
+![Closed Cases](screenshots/closed_cases.png)
 ---
 
 ## 🛠️ Tech Stack
