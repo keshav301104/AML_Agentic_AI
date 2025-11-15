@@ -1,0 +1,30 @@
+# Python virtual environment
+venv/
+*.venv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+.env.*
+
+# Streamlit config
+.streamlit/
+
+# IDE files (VS Code, etc.)
+.vscode/
+.idea/
+
+# Data files (Optional, but recommended if your data is private)
+# data/accounts.csv
+# data/transactions.csv
+# data/sdn.csv
+# data/closed_cases.csv
+
+# DS_Store (macOS)
+.DS_Store

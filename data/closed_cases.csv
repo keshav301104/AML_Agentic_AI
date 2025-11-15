@@ -1,0 +1,150 @@
+case_id,decision,brief,timestamp
+177,Approve SAR,"
+
+---
+
+### 1. Account Details
+*   **Customer ID:** C_177
+*   **Account ID:** 177
+*   **Account Type:** Individual
+*   **Country:** US
+*   **Date of Birth:** Missing
+*   **Initial Balance:** 128.79
+*   **IS_FRAUD Flag:** True
+
+### 2. Financial Summary (Analysis)
+*   **Total Inbound Value ($):** 851400.06
+*   **Total Outbound Value ($):** 1071.84
+*   **Net Flow ($):** 850328.22
+*   The account received a substantial amount of funds, primarily driven by two very large transfers from a single counterparty.
+*   Outbound activity consists of numerous smaller, consistent transfers to three specific accounts.
+*   Several inbound transactions, including one from a major sender, are explicitly flagged as fraudulent.
+
+### 3. Key Counterparties
+*   **Top 3 Senders:**
+    *   4219: 848355.47
+    *   5732: 1388.20
+    *   2066: 253.16
+*   **Top 3 Receivers:**
+    *   9149: 429.20
+    *   3069: 429.20
+    *   9109: 429.20
+
+### 4. Sanctions & Adverse Media
+*   **Sanctions Check:** Sanctions list was not loaded, therefore a check could not be performed.
+*   **Adverse Media:** No relevant adverse media was found for ""177"". Search results pertained to a medical isotope (Lutetium-177) and its side effects, which is not applicable to a customer account.
+
+### 5. Conclusion & Final Risk Assessment
+**Risk Assessment: High**
+This account is assessed as High Risk. The account is explicitly flagged as fraudulent, and multiple transactions, including one from a major sender, are also marked as fraudulent. The receipt of two exceptionally large, unexplained transfers from a single counterparty, coupled with consistent smaller outbound payments, indicates a high likelihood of illicit financial activity.",2025-11-14 04:20:22.659519
+236,Mark as False Positive,"
+
+In the meantime, here is the Investigation Brief based on the available information:
+
+### 1. Account Details
+*   **Customer ID:** C_236
+*   **Account ID:** 236
+*   **Account Type:** I
+*   **Country:** US
+*   **Initial Balance:** $279.34
+*   **IS_FRAUD Flag:** True
+*   **Date of Birth:** Missing
+
+### 2. Financial Summary (Analysis)
+*   **Total Inbound Value ($):** 32900000.00
+*   **Total Outbound Value ($):** 32900000.00
+*   **Net Flow ($):** 0.00
+*   The account shows extremely high transaction volumes, with both inbound and outbound values in the tens of millions.
+*   There is a perfect balance between total inbound and outbound funds, resulting in a net flow of zero.
+*   One outbound transaction (TX_ID 64895) is explicitly flagged as `IS_FRAUD = True`.
+
+### 3. Key Counterparties
+*   **Top 3 Senders to this account:**
+    *   2294: $32600000.00
+    *   7795: $3027.25
+    *   9065: $184.10
+*   **Top 3 Receivers from this account:**
+    *   9495: $921576.94
+    *   9585: $987948.32
+    *   9358: $454596.55
+
+### 4. Sanctions & Adverse Media
+*   **Sanctions Check:** Sanctions list is not loaded, therefore a check could not be performed.
+*   **Adverse Media:** No relevant adverse media found for ""236"". Search results were related to a Canadian area code and spam numbers.
+
+### 5. Conclusion & Final Risk Assessment
+**High Risk.** The account is explicitly flagged with `IS_FRAUD = True` in its details, and one transaction is also flagged as fraudulent. The transaction activity shows extremely large sums of money flowing through the account, with a perfect net flow of zero, which can be indicative of layering. The inability to perform a sanctions check due to a system error further elevates the risk.",2025-11-14 04:24:39.338679
+987,Approve SAR,"
+
+In the meantime, here is the investigation brief based on the information gathered so far:
+
+### 1. Account Details
+*   **Customer ID:** C_987
+*   **Account ID:** 987
+*   **Account Type:** I
+*   **Country:** US
+*   **Date of Birth:** Missing
+*   **IS_FRAUD Flag:** True
+
+### 2. Financial Summary (Analysis)
+*   **Total Inbound Value ($):** 4000.08
+*   **Total Outbound Value ($):** 5480.32
+*   **Net Flow ($):** -1480.24
+*   The account exhibits frequent, recurring inbound transfers from three distinct counterparties.
+*   The account makes frequent, recurring outbound transfers of a consistent amount to a single counterparty (5145).
+*   One outbound transaction (TX_ID 552335) is flagged as IS_FRAUD and has an ALERT_ID.
+
+### 3. Key Counterparties
+*   **Top 3 Senders to this account:**
+    *   9764: $2927.85
+    *   7723: $1874.55
+    *   8096: $124.65
+*   **Top 3 Receivers from this account:**
+    *   5145: $5476.80
+    *   9984: $3.52
+
+### 4. Sanctions & Adverse Media
+*   **Sanctions Check:** Sanctions list is not loaded, therefore a check could not be performed.
+*   **Adverse Media:** A search for ""987 adverse media"" returned a result mentioning a company accused of extending prohibited title loans to military families (referencing ""§ 987""). However, it is unclear if this is related to the customer ID 987 or a legal code. Other results were irrelevant.
+
+### 5. Conclusion & Final Risk Assessment
+**High Risk.** The account is explicitly flagged as `IS_FRAUD: True` in its details, and one transaction is also flagged as `IS_FRAUD` with an associated alert. The recurring, consistent transaction patterns, coupled with the fraud flags, indicate a high potential for illicit activity. A full sanctions check and a more targeted adverse media search (once the customer's name is available) are critical next steps.",2025-11-14 04:32:44.800397
+138,Approve SAR,"
+
+**Recommendation:**
+Given the account's ""IS_FRAUD: True"" flag and the highly suspicious transaction activity, this account warrants immediate and thorough investigation. The large sums received and then disbursed in smaller, repeated amounts are indicative of potential money laundering or other illicit financial activity.
+
+---
+
+### 1. Account Details
+*   **Customer ID:** C_138
+*   **Account ID:** 138
+*   **Country:** US
+*   **Account Type:** Individual (I)
+*   **Initial Balance:** 135.03
+*   **IS_FRAUD:** True
+*   **Date of Birth:** Missing
+
+### 2. Financial Summary (Analysis)
+*   **Total Inbound Value ($):** 9528948.53
+*   **Total Outbound Value ($):** 2407.59
+*   **Net Flow ($):** 9526540.94
+*   The account received two very large inbound transfers totaling over $9.5 million.
+*   Following the large inflows, the account made numerous small, repetitive outbound transfers, primarily for $33.75 each, to a limited set of counterparties.
+*   One outbound transaction of $4.59 was explicitly flagged as fraudulent.
+
+### 3. Key Counterparties
+*   **Top 3 Senders to this account:**
+    *   Account 9206: 9031496.0
+    *   Account 9399: 497452.53
+*   **Top 3 Receivers from this account:**
+    *   Account 9197: 706.84
+    *   Account 9276: 706.84
+    *   Account 6265: 706.84
+
+### 4. Sanctions & Adverse Media
+*   **Sanctions Check:** The sanctions list is not loaded, so a check for ""138"" could not be performed.
+*   **Adverse Media:** No adverse media was found for ""138"". The search results were irrelevant, pertaining to ""Article 138, UCMJ"" and general adverse media screening information, suggesting ""138"" is an ID, not a name.
+
+### 5. Conclusion & Final Risk Assessment
+**High Risk.** This account is explicitly flagged as fraudulent, and its transaction patterns show significant red flags, including two very large inbound transfers followed by numerous small, repetitive outbound transfers to multiple accounts. The presence of an explicitly fraudulent transaction further elevates the risk, indicating potential involvement in money laundering or other illicit activities.",2025-11-15 03:12:10.397318

@@ -1,0 +1,25 @@
+# --- Core AI & Agent Framework ---
+langgraph
+langchain
+langchain-community
+langchain-google-genai
+# langchain-openai (we don't need this anymore)
+
+# --- Frontend Web App ---
+streamlit
+streamlit-antd-components
+streamlit-agraph
+
+# --- Data Handling & Graph Analytics ---
+pandas
+networkx
+pyvis
+fuzzywuzzy
+
+# --- Web Search Tool ---
+langchain-tavily
+tavily-python
+
+# --- Utilities ---
+python-dotenv
+python-Levenshtein
